@@ -1,7 +1,11 @@
 var config = module.exports;
 
 config.app = {
-  name: 'skeleton'
+  name: 'legislation'
+};
+
+config.db = {
+  url: 'mongodb://localhost:27017/legislation'
 };
 
 config.server = {
