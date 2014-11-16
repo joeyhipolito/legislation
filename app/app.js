@@ -8,9 +8,9 @@ var router  = express.Router();
 app.use(logger('dev'));
 
 [
-  'app/home/routes'
+  'app/index/routes'
 ].forEach(function (routePath) {
-  require(routePath)(router);
+  require(routePath)(app, router);
 });
 
 app.use('/', router);
