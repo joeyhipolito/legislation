@@ -9,6 +9,13 @@ resolution.
 Basic Functions
 ----------
 
-- Search and filter documents
-- Administer new documents
+ 1. [ ] Search and filter documents
+ 2. [ ] Administer new documents
+
+TODO
+----------
+
+ 1. [ ] create document model
+ 2. [ ] create document crud routes
+ 3. [ ] start frontend
 
