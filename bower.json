@@ -1,0 +1,25 @@
+{
+  "name": "legislation",
+  "version": "0.2.0",
+  "homepage": "https://github.com/joeyhipolito/legislation",
+  "authors": [
+    "Joey Hipolito <hi@joeyhipolito.com>"
+  ],
+  "description": "information management system for city ordinances and resolution",
+  "main": "app/app.js",
+  "keywords": [
+    "legislative",
+    "tracking",
+    "system",
+    "legislation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.2",
+    "angular-resource": "~1.3.2",
+    "angular-cookies": "~1.3.2",
+    "angular-sanitize": "~1.3.2",
+    "angular-ui-router": "~0.2.12"
+  }
+}
