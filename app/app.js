@@ -23,8 +23,6 @@ app.use(session({
   resave: true
 }));
 
-app.use(logger('dev'));
-
 [
   'app/index/routes',
   'app/auth/routes'

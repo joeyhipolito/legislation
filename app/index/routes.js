@@ -8,8 +8,8 @@ function setup (app, router) {
   app.set('views', 'app');
   app.set('view engine', 'html');
   app.engine('html', require('hogan-express'));
-  app.use(express.static(__dirname + '/public'));
-  app.use('/bower_components', express.static(__dirname + '/bower_components'));
+  app.use(express.static('public'));
+  app.use('/bower_components', express.static('bower_components'));
 
   router.get('/', index);
 }
